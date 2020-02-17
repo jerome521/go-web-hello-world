@@ -436,7 +436,7 @@ v0.1: digest: sha256:8ccc72e1ffe7f4ba8f0c368b7223ea5bab18297460401f650066ed28c65
 
 #### Task 8: document the procedure in a MarkDown file
 
-**Task (0-7) 技术实现详细步骤请参考本文。**
+ - Task (0-7) 技术实现详细步骤请参考本文
 
 #### Task 9: install a single node Kubernetes cluster using kubeadm
 
