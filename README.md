@@ -183,6 +183,8 @@ nginx   7048 gitlab-www    7u  IPv4 116621      0t0  TCP *:http-alt (LISTEN)
 
 ![图1 登录页面](./images/1581781985105.png)
 
+![图1 ](https://github.com/jerome521/go-web-hello-world/blob/master/img/1.png)
+
 #### Task 3: create a demo group/project in gitlab
 
 **Step1:** 在本地gitlab创建demo组和go-web-hello-world项目，访问测试如下图所示：
