@@ -1,5 +1,5 @@
 ---
-title: 测试题作答
+Title: 测试题作答
 ---
 
 #### Task 0: Install a ubuntu 16.04 server 64-bit
@@ -181,17 +181,15 @@ nginx   7048 gitlab-www    7u  IPv4 116621      0t0  TCP *:http-alt (LISTEN)
 
  - 虚拟主机本地浏览器访问：http://127.0.0.1:8080，登录情况如下：
 
-![图1 登录页面](./images/1581781985105.png)
-
-![图1 ](https://github.com/jerome521/go-web-hello-world/blob/master/img/1.png)
+![图1 登录页面](https://github.com/jerome521/go-web-hello-world/blob/master/img/1.png)
 
 #### Task 3: create a demo group/project in gitlab
 
 **Step1:** 在本地gitlab创建demo组和go-web-hello-world项目，访问测试如下图所示：
 
-![图2 组和项目验证一](./images/1581781410651.png)
+![图2 组和项目验证一](https://github.com/jerome521/go-web-hello-world/blob/master/img/2.png)
 
-![图3 组和项目验证二](./images/1581781527901.png)
+![图3 组和项目验证二](https://github.com/jerome521/go-web-hello-world/blob/master/img/3.png)
 
 **Step 2:** 提交代码测试(以README.md为例)
 
@@ -243,7 +241,7 @@ Go Web Hello World !
 
  - 浏览器访问验证，如下图所示：
 
-![图4 应用页面访问验证](./images/1581782718537.png)
+![图4 应用页面访问验证](https://github.com/jerome521/go-web-hello-world/blob/master/img/4.png)
 
 #### Task 5: install docker
 
@@ -386,9 +384,7 @@ Go Web Hello World !
 
  - 浏览器访问验证，如下图示：
 
-![图5 容器发布应用验证](./images/1581840380128.png)
-
-
+![图5 容器发布应用验证](https://github.com/jerome521/go-web-hello-world/blob/master/img/5.png)
 
 #### Task 7: push image to dockerhub
 
@@ -436,7 +432,7 @@ v0.1: digest: sha256:8ccc72e1ffe7f4ba8f0c368b7223ea5bab18297460401f650066ed28c65
 
  - 登录Docker Hub验证镜像上传是否成功，如下图所示：
 
-![图6 Docker Hub上传镜像验证](./images/1581846524785.png)
+![图6 Docker Hub上传镜像验证](https://github.com/jerome521/go-web-hello-world/blob/master/img/6.png)
 
 #### Task 8: document the procedure in a MarkDown file
 
@@ -754,7 +750,7 @@ root@demo:~/k8s# ss -lntup |grep 31081
 tcp   LISTEN  0        1024                      *:31081                *:*      users:(("kube-proxy",pid=4835,fd=8)) 
 ```
 
-![图7 Dashboard验证登录](./images/1581890590319.png)
+![图7 Dashboard验证登录](https://github.com/jerome521/go-web-hello-world/blob/master/img/7.png)
 
 #### Task 12: generate token for dashboard login in task 11
 
@@ -804,7 +800,7 @@ token:      eyJhbGciOiJSUzI1NiIsImtpZCI6InVKaGdTYkNmR3BCZ3Btand2eEhYYjhaOWh2cm5L
 
  - 使用火狐浏览器访问https://127.0.0.1:31081(虚拟机本地浏览器)，或是访问https://192.168.114.128:31081(宿主机浏览器)进行测试，如下图所示：
 
-![图8 Dashboard管理页面](./images/1581899620491.png)
+![图8 Dashboard管理页面](https://github.com/jerome521/go-web-hello-world/blob/master/img/8.png)
 
 #### Task 13: publish your work
 
